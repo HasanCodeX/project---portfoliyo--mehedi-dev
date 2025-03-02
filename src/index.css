@@ -2,7 +2,10 @@
 @plugin "daisyui";
 
 :root {
+  
   font-family: system-ui, Helvetica, Arial, sans-serif;
+
+  
   line-height: 1.5;
   font-weight: 400;
 
@@ -25,6 +28,7 @@ html {
 body {
   background-color: var(--tw-bg-opacity) !important;
   color: rgba(255, 255, 255, 0.87) !important;
+  font-family: 'Michroma', sans-serif;
 }
 
 /* Custom DaisyUI dark mode adjustments */
