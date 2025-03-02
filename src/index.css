@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Add a smoother transition between light and dark mode */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Add specific colors or tweaks to match Tailwind's dark mode classes */
+body {
+  background-color: var(--tw-bg-opacity) !important;
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+/* Custom DaisyUI dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #121212;
+    color: #eaeaea;
+  }
+}
