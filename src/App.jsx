@@ -9,9 +9,11 @@ import ServicesSection from './components/services';
 import ContactSection from './components/contact.jsx';
 
 
+
 function App() {
   return (
     <div className="App">
+       
       <Navbar />  {/* Navbar component */}
       <Banner />  {/* Banner component */}
       <About/>

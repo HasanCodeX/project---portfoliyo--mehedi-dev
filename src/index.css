@@ -37,6 +37,11 @@ body {
   font-family: 'Michroma', sans-serif;
 }
 
+
+* {
+  cursor: none; /* Hides the default cursor */
+}
+
 /* Custom DaisyUI dark mode adjustments */
 @media (prefers-color-scheme: dark) {
   :root {
@@ -44,3 +49,16 @@ body {
     color: #eaeaea;
   }
 }
+
+
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: transform 0.15s ease-out;
+}
+
