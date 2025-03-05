@@ -9,8 +9,9 @@ const WorkSection = () => {
   ];
 
   return (
-    <div className="w-full py-12 bg-[#0A0F1F] flex justify-center">
-      <div className="grid grid-cols-4 gap-6 max-w-6xl">
+    <div className="w-full py-12 bg-[#0A0F1F] ">
+      <h2 className="text-3xl text-blue-300 uppercase tracking-wide mb-8">My Projects</h2>
+      <div className="flex justify-center"><div className="grid grid-cols-4 gap-6 max-w-6xl">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -21,7 +22,7 @@ const WorkSection = () => {
             <p className="text-sm text-blue-400 mt-1">{project.id}</p>
           </div>
         ))}
-      </div>
+      </div></div>
     </div>
   );
 };
