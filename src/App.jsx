@@ -7,6 +7,7 @@ import About from './components/about.jsx';
 import SkillSection from './components/skill.jsx';
 import ServicesSection from './components/services';
 import ContactSection from './components/contact.jsx';
+import WhatsAppButton from "./components/WhatsAppButton";
 
 
 
@@ -24,6 +25,7 @@ function App() {
 <ServicesSection/>
 <SkillSection/>
 <ContactSection/>
+<WhatsAppButton />  {/* WhatsAppButton component */}
 <Footer />  {/* Footer component */}
 
     </div>
