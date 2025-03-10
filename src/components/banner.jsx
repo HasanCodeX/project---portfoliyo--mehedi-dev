@@ -3,25 +3,6 @@ import { CodeXml } from "lucide-react";
 
 export default function Banner() {
   return (
-    //     <div className="text-center py-10">
-    //       <div className="flex justify-center items-center py-10">
-    //   <CodeXml className="w-20 h-20" /> {/* Adjust size (w = width, h = height) */}
-    // </div>
-
-    //       <h6>Hi i am</h6>
-    //       <h1 className="text-3xl font-bold mt-4">Mehedi Hasan</h1>
-    //       <p className="text-lg tracking-wide mt-2 font-medium">
-    //         <Typewriter
-    //           words={["I am Web Developer", "I am Frontend Engineer", "I am React Specialist", "I am Full Stack Developer"]}
-    //           loop={Infinity}
-    //           cursor
-    //           cursorStyle="|"
-    //           typeSpeed={80}
-    //           deleteSpeed={50}
-    //           delaySpeed={1000}
-    //         />
-    //       </p>
-    //     </div>
 
     <div className="relative min-h-screen bg-[#0A0F1F] flex items-center justify-center text-white">
       <div className="text-center">
