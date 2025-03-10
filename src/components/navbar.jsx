@@ -66,15 +66,15 @@ export default function Navbar() {
           </li>
           <li
             className="hover:text-orange-400 cursor-pointer"
-            onClick={() => scrollToSection("work")}
+            onClick={() => scrollToSection("projects")}
           >
-            Work
+            Projects
           </li>
           <li
             className="hover:text-orange-400 cursor-pointer"
-            onClick={() => scrollToSection("shop")}
+            onClick={() => scrollToSection("Blogs")}
           >
-            Shop
+            Blogs
           </li>
           <li
             className="hover:text-orange-400 cursor-pointer"
