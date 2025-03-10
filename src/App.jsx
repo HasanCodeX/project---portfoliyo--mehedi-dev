@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Banner />
       <WorkSection />
       <ServicesSection />
       <SkillSection />

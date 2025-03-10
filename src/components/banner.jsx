@@ -3,8 +3,7 @@ import { CodeXml } from "lucide-react";
 
 export default function Banner() {
   return (
-
-    <div className="relative min-h-screen bg-[#0A0F1F] flex items-center justify-center text-white">
+    <div id="home" className="relative min-h-screen bg-[#0A0F1F] flex items-center justify-center text-white">
       <div className="text-center">
         <div className="relative w-64 h-64 mx-auto">
           {/* Background Glow Effect */}
@@ -12,10 +11,8 @@ export default function Banner() {
           {/* 3D Ring Illustration */}
           <div className="relative w-full h-full rounded-full bg-gradient-to-r from-blue-500 to-pink-500 p-2 flex items-center justify-center">
             <div className="w-48 h-48 bg-[#0A0F1F] rounded-full border-[10px] border-transparent border-opacity-20 shadow-xl">
-              {" "}
               <div className="flex justify-center items-center py-10">
                 <CodeXml className="w-20 h-20" />
-               
               </div>
             </div>
           </div>

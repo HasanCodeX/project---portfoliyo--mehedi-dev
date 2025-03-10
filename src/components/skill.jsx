@@ -17,7 +17,7 @@ const SkillSection = () => {
   ];
 
   return (
-    <div className="w-full py-12 bg-[#0A0F1F] flex justify-center hidden">
+    <div id="skills" className="w-full py-12 bg-[#0A0F1F] flex justify-center ">
       <div className="max-w-6xl text-center">
         {/* Title/Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">My Skills</h2>
