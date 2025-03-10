@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <div className="w-full py-12 bg-[#0A0F1F] flex justify-center hidden">
+    <div id="contacts" className="w-full py-12 bg-[#0A0F1F] flex justify-center ">
       <div className="max-w-6xl text-center text-white">
         {/* Title/Heading */}
         <h2 className="text-3xl md:text-4xl font-bold mb-8">Contact Me</h2>

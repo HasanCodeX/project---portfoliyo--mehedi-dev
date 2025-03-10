@@ -10,7 +10,7 @@ const ServicesSection = () => {
 
   return (
    
-    <div className="w-full py-12 bg-[#0A0F1F] justify-center hidden">
+    <div id="Blogs" className="w-full py-12 bg-[#0A0F1F] justify-center">
         <h2 className="text-3xl text-blue-300 uppercase tracking-wide mb-8">My Services</h2>
       <div className="flex justify-center"><div className="grid grid-cols-4 gap-6 max-w-6xl ">
         {services.map((service, index) => (
