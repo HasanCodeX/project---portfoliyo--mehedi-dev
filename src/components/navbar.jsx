@@ -23,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-[#0A0F1F] py-4 fixed top-0 left-0 right-0 z-50 flex items-center justify-center px-6 md:px-20 shadow-md">
+    <nav className="w-full  py-4 fixed top-0 left-0 right-0 z-50 flex items-center justify-center px-6 md:px-20 shadow-md">
       {/* Mobile Menu Button */}
       <button
         className="md:hidden text-gray-400 absolute left-6 z-50"
