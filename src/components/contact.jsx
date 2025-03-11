@@ -1,12 +1,38 @@
-import React from "react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <div id="contacts" className="w-full py-16 bg-[#0A0F1F] flex flex-col items-center">
+    <section id="contacts" className="flex flex-col md:flex-row items-center justify-center gap-8 p-10 bg-[#0A0F1C] text-white">
+      {/* Left Side - Contact Info */}
       <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-12">
-        Contact Me
+        Get in touch
       </h2>
-      <div className="bg-[#0D1326] p-8 rounded-xl shadow-lg backdrop-blur-lg bg-opacity-90 w-full max-w-3xl text-white">
+      <div className="flex flex-col gap-6 bg-[#0D1326] p-8 rounded-xl shadow-lg backdrop-blur-lg bg-opacity-90 w-full max-w-3xl h-112 justify-center  items-center">
+        <div className="flex items-center gap-4">
+          <MapPin size={24} className="text-blue-400" />
+          <div>
+            <h2 className="text-lg font-semibold">Location</h2>
+            <p className="text-gray-400">Dhaka, Bangladesh</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4">
+          <Phone size={24} className="text-blue-400" />
+          <div>
+            <h2 className="text-lg font-semibold">Phone</h2>
+            <p className="text-gray-400">+8801747874773</p>
+          </div>
+        </div>
+        <div className="flex items-center gap-4">
+          <Mail size={24} className="text-blue-400" />
+          <div>
+            <h2 className="text-lg font-semibold">Email</h2>
+            <p className="text-gray-400">mehedi@example.com</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Right Side - Contact Form */}
+      <div className="bg-[#0D1326] p-8 rounded-xl shadow-lg backdrop-blur-lg bg-opacity-90 w-full max-w-3xl h-112 ">
         <form className="space-y-6">
           <div className="flex flex-col md:flex-row gap-4">
             <div className="flex-1">
@@ -54,7 +80,7 @@ const ContactSection = () => {
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 

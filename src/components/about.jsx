@@ -2,9 +2,12 @@ import { FaReact, FaGithub, FaCode } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section className="bg-[#0A0F1F] text-white py-16 px-6 ">
-      <div id="about" className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12 justify-center">
-        
+    <section id="about" className="bg-[#0A0F1F] text-white py-16 px-6 ">
+      
+      <div  className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12 justify-center">
+      <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-12">
+        About Me
+      </h2>
         {/* Profile Image */}
         <div className="bg-[#0D1326] p-6 rounded-lg shadow-lg h-112">
           <img 
