@@ -58,12 +58,17 @@ export default function Navbar() {
           >
             skills
           </li>
-          <li
-            className="hover:text-orange-400 cursor-pointer hidden md:block"
-            onClick={() => scrollToSection("about")}
-          >
-            <pre>                          </pre>
-          </li>
+          
+         
+<li className="hover:text-orange-400 cursor-pointer hidden md:block">
+  <pre>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </pre>
+</li>
+
+
+
+
+
+
           <li
             className="hover:text-orange-400 cursor-pointer"
             onClick={() => scrollToSection("projects")}
