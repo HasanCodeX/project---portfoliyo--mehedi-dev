@@ -3,18 +3,17 @@ import { FaReact, FaGithub, FaCode } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about" className="bg-[#0A0F1F] text-white py-16 px-6 ">
-      
-      <div  className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12 justify-center">
       <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-12">
         About Me
       </h2>
-        {/* Profile Image */}
-        <div className="bg-[#0D1326] p-6 rounded-lg shadow-lg h-112">
-          <img 
-            src="https://i.ibb.co.com/0jdw9xHJ/image.png" 
-            alt="Mehedi Hasan" 
-            className="w-64 rounded-lg"
-          />
+      <div className="mx-auto flex flex-col md:flex-row items-center justify-center gap-8 max-w-7xl px-6">
+        {/* profile image  */}
+          <div className="min-lg:w-7xl bg-[#0D1326] p-6 rounded-lg shadow-lg h-112 flex flex-col items-center ">
+            <img 
+              src="https://i.ibb.co.com/0jdw9xHJ/image.png" 
+              alt="Mehedi Hasan" 
+              className="w-64 rounded-lg "
+            />
           
           {/* Icons Section */}
           <div className="flex justify-center gap-4 mt-4">
@@ -25,7 +24,7 @@ const About = () => {
         </div>
 
         {/* About Content */}
-        <div className="bg-[#0D1326]  text-white p-6 rounded-lg shadow-lg max-w-xl  h-112">
+        <div className="bg-[#0D1326]  text-white p-6 rounded-lg shadow-lg   h-112">
           <div className="flex items-center gap-2">
             <div className="w-3 h-3 bg-red-500 rounded-full"></div>
             <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>

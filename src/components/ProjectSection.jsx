@@ -39,9 +39,9 @@ const ProjectSection = () => {
 
   return (
     <div id="projects" className="w-full py-16 bg-[#0A0F1F] flex flex-col items-center">
-      <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-12">
+      <div><h2 className="text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-12">
         My Projects
-      </h2>
+      </h2></div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-7xl px-6">
         {projects.map((project) => (
           <div

@@ -2,11 +2,12 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contacts" className="flex flex-col md:flex-row items-center justify-center gap-8 p-10 bg-[#0A0F1C] text-white">
-      {/* Left Side - Contact Info */}
+    <section id="contacts" className=" items-center justify-center gap-8 p-10 bg-[#0A0F1C] text-white">
       <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-12">
-        Get in touch
+        Get in Touch
       </h2>
+      
+     <div className="mx-auto flex flex-col md:flex-row items-center justify-center gap-8 max-w-7xl px-6"> {/* Left Side - Contact Info */}
       <div className="flex flex-col gap-6 bg-[#0D1326] p-8 rounded-xl shadow-lg backdrop-blur-lg bg-opacity-90 w-full max-w-3xl h-112 justify-center  items-center">
         <div className="flex items-center gap-4">
           <MapPin size={24} className="text-blue-400" />
@@ -79,7 +80,7 @@ const ContactSection = () => {
             Send Message
           </button>
         </form>
-      </div>
+      </div></div>
     </section>
   );
 };

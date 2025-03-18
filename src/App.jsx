@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Banner />
       <About />
-      <ProjectSection /> 
+      <ProjectSection />
       
       <BlogSection />
       <SkillSection />
