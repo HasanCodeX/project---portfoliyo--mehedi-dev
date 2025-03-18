@@ -10,7 +10,7 @@ const About = () => {
         {/* profile image  */}
           <div className="min-lg:w-7xl bg-[#0D1326] p-6 rounded-lg shadow-lg h-112 flex flex-col items-center ">
             <img 
-              src="https://i.ibb.co.com/0jdw9xHJ/image.png" 
+              src="https://i.ibb.co.com/7B9C5dN/1742086607598.jpg" alt="1742086607598" border="0" 
               alt="Mehedi Hasan" 
               className="w-64 rounded-lg "
             />
