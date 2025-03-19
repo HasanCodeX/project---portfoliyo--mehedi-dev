@@ -38,9 +38,11 @@ body {
 }
 
 
-* {
-  cursor: none; /* Hides the default cursor */
-}
+/* * {
+  cursor: none; 
+} */
+
+
 
 /* Custom DaisyUI dark mode adjustments */
 @media (prefers-color-scheme: dark) {
@@ -53,8 +55,8 @@ body {
 
 .custom-cursor {
   position: fixed;
-  width: 20px;
-  height: 20px;
+  width: 32px;
+  height: 32px;
   border: 2px solid white;
   background-color: transparent;
   border-radius: 50%;
