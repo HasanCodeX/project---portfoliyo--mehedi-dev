@@ -18,7 +18,8 @@ const SkillSection = () => {
 
   return (
     <div id="skills" className="w-full py-12 md:py-16 bg-[#0A0F1F] flex flex-col items-center">
-      <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide m-8">
+      
+       <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-4 mt-4 text-center">
         My Skills
       </h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 max-w-7xl px-4 sm:px-6 md:px-8">

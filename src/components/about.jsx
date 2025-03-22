@@ -3,8 +3,9 @@ import { FaReact, FaGithub, FaCode } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about" className="bg-[#0A0F1F] text-white py-16 px-6">
-      <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-4 mt-4 text-center">
-        About Me
+     
+       <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-4 mt-4 text-center">
+       About Me
       </h2>
 
       {/* Parent Container */}

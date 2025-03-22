@@ -2,9 +2,10 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 const ContactSection = () => {
   return (
-    <section id="contacts" className="bg-[#0A0F1F] p-6 text-white">
-      <h2 className="mt-14 text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-4">
-        Get in Touch
+    <section id="contacts" className="bg-[#0A0F1F] p-6 text-white px-6 py-16">
+     
+       <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text uppercase tracking-wide mb-4 mt-4 text-center">
+       Get in Touch
       </h2>
 
       <div className="mx-auto flex flex-col gap-8 md:flex-row items-center justify-center max-w-7xl px-6">
